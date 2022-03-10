@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
- * Description: this is the main function for a c program
- * it returns and interger
- * of zero
+ * Description: main  - prints to the standard output
+ * Return: 0 if success
 */
 int main(void)
 {
