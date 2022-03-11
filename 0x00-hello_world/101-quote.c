@@ -2,7 +2,7 @@
 #include <unistd.h>
 /**
  * Description: main - contains the content to be displayed on stdout
- * return: 0 whn success
+ * Return: Always 0 whn success
  */
 int main(void)
 {
