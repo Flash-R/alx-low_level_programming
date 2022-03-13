@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
-  * main - prints out to stdout
+/**
+  * Description: main - prints out to stdout
   * Return: - always success if the output is zero
 */
 
