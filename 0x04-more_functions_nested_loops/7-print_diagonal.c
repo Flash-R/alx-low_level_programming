@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * print_diagonal - prints a diagonal n chars
- * @n: number of chars
+ * print_diagonal - prints a diagonal n chars.
+ * @n: number of chars.
  *
- * Return: void
+ * Return: void.
 */
 void print_diagonal(int n)
 {
-	int i,space;
+	int i, space;
 
 	if (n <= 0)
 	{
