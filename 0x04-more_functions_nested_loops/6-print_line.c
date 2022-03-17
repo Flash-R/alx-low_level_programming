@@ -1,7 +1,9 @@
-nclude "main.h"
+#include "main.h"
 /**
  * print_line - prints the numbers
- * Return: returns 0
+ * @n: length of the line
+ *
+ * Return: void.
 */
 
 void print_line(int n)
