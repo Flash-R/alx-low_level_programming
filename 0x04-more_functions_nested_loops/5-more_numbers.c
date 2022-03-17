@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * more_functions - print 0 -14 10 times
+ * more_numbers - print 0 -14 10 times
  * Return: void
 */
 
@@ -17,7 +17,7 @@ void more_numbers(void)
 		while (j < 15)
 		{
 			if (j >= 10)
-				_putchar('0' + j/10);
+				_putchar('0' + j / 10);
 			_putchar('0' + j % 10);
 			j++;
 		}
