@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_square - prints a square n chars.
- * @n: number of chars.
+ * @size: number of chars.
  *
  * Return: void.
 */
@@ -15,11 +15,11 @@ void print_square(int size)
         }
         else
         {
-                for (i = 0; i < size; i++)
+                for (i = 1; i < size; i++)
                 {
 			_putchar('#');
 
-                        for (j = 0; j < i; j++)
+                        for (j = 1; j < size; j++)
                         {
                                 _putchar('#');
                         }
