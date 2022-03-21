@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 /**
  * reset_to_int() - returns the changed value
  * &*n: is the value for the parameter pointer
