@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * reset_to_int() - returns the changed value
+ * reset_to_98() - returns the changed value
  * &*n: is the value for the parameter pointer
  * Return: reurns zero when success
 */
