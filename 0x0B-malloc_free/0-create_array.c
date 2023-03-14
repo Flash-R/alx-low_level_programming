@@ -6,20 +6,23 @@
  * return - pointer to array
  */
 
-char *create_array(unsigned int size, char c){
+char *create_array(unsigned int size, char c)
+{
 	
 	char *arr;
 	unsigned int i = 0;
 	
-	if(size == 0){
+	if (size == 0)
+	{
 		return (NULL);
 	}
 	else
-		arr = malloc(size * sizeof(char));
+		arr = malloc (size * sizeof (char));
 
-	if(arr == NULL)
+	if (arr == NULL)
 		return (NULL);
-	while(i < size){
+	while(i < size)
+	{
 	arr[i] = c;
 	i++;
 	}
