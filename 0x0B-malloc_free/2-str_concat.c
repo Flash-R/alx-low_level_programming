@@ -6,7 +6,7 @@
  * Return: the pointer to new longer string.
  */
 
-char *str_concat(char s1, char s2)
+char *str_concat(char *s1, char *s2)
 {
 	char *longstr;
 	unsigned int len1 = 0;
