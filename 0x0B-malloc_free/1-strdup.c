@@ -18,7 +18,7 @@ char *_strdup(char *str)
 		i++;
 	}
 	i++;
-        newAray	= malloc(i * sizeof(char));
+       	newAray	= malloc(i * sizeof(*newAray));
 	while (j < i)
 	{
 		newAray[j] = str[j];
