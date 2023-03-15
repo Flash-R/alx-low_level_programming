@@ -11,6 +11,7 @@ char *str_concat(char *s1, char *s2)
 	char *longstr;
 	unsigned int len1 = 0;
 	unsigned int len2 = 0;
+	unsigned int j = 0;
 	unsigned int total = 0;
 	unsigned int i = 0;
 
@@ -30,7 +31,6 @@ char *str_concat(char *s1, char *s2)
 		longstr[i] = s1[i];
 		i++;
 	}
-	unsigned int j = 0;
 	while (j < len2)
 	{
 		longstr[i] = s2[j];
