@@ -7,20 +7,22 @@
 
 char *_strdup(char *str)
 {
-	int i =0;
-	int len = 0;
-	int j = 0;
+	char *newAray;
+	unsigned int i = 0;
+	unsigned int j = 0;
+
 	if (str == NULL)
 		return (NULL);
-	while (str[i] != "\0")
+	while (str[i] != '\0')
 	{
 		i++;
 	}
-	char *newAray = malloc(len * sizeof(char);
-	while (j < len)
+	i++;
+        newAray	= malloc(i * sizeof(char));
+	while (j < i)
 	{
 		newAray[j] = str[j];
 		j++;
 	}
-	return newAray;
+	return (newAray);
 }
