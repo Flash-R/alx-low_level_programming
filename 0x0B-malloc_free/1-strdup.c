@@ -1,6 +1,6 @@
 #include <stdlib.h>
 /**
- * strdup - creates space in memory and copies the string in it.
+ * _strdup - creates space in memory and copies the string in it.
  * @str: string to be copied to new space.
  * Return: Pointer to new space
  */
@@ -19,6 +19,8 @@ char *_strdup(char *str)
 	}
 	i++;
 	newAray	= malloc(i * sizeof(*newAray));
+	if (newAray == NULL)
+		return (NULL);
 	while (j < i)
 	{
 		newAray[j] = str[j];
