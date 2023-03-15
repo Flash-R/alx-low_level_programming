@@ -15,10 +15,8 @@ char *str_concat(char *s1, char *s2)
 	unsigned int total = 0;
 	unsigned int i = 0;
 
-	if (s1 == NULL)
-		return(NULL);
-	if(s2 == NULL)
-		return(NULL);
+	if (s1 == NULL || s2 ==NULL)
+		return (NULL);
 	while (s1[len1] != '\0')
 	{
 		len1++;
@@ -30,8 +28,8 @@ char *str_concat(char *s1, char *s2)
 	}
 	total = len1 + len2;
 	longstr = malloc(total * sizeof(*longstr));
-	if(longstr == NULL)
-		return(NULL);
+	if (longstr == NULL)
+		return (NULL);
 	while (i < len1)
 	{
 		longstr[i] = s1[i];
