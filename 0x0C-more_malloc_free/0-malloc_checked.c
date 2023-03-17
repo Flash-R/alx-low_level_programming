@@ -2,7 +2,7 @@
 /**
  * malloc_checked - returns the pointer
  * @b: size
- * return: address or 98;
+ * Return: address or 98;
  */
 void *malloc_checked(unsigned int b)
 {
@@ -10,7 +10,8 @@ void *malloc_checked(unsigned int b)
 	s = malloc(b);
 	if (s == NULL)
 	{
-	exit(98);
+		exit(98);
 	}
-	return (s);
+	else
+		return (s);
 }
