@@ -4,6 +4,7 @@
  * @b: size
  * Return: address or 98;
  */
+
 void *malloc_checked(unsigned int b)
 {
 	void *s;
