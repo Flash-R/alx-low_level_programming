@@ -10,27 +10,21 @@ char *str_concat(char *s1, char *s2)
 {
 	char *longstr;
 	char *nul = "";
-	unsigned int len1 = 0;
-	unsigned int len2 = 0;
-	unsigned int j = 0;
-	unsigned int total = 0;
-	unsigned int i = 0;
+	unsigned int len1;
+	unsigned int len2;
+	unsigned int j;
+	unsigned int i;
 
+	j = i = len1 = len2 = 0;
 	if (s1 == NULL)
 		s1 = nul;
 	else if (s2 == NULL)
 		s2 = nul;
 	while (s1[len1] != '\0')
-	{
 		len1++;
-	}
-
 	while (s2[len2] != '\0')
-	{
 		len2++;
-	}
 	len2++;
-	total = len1 + len2;
 	longstr = malloc(total * sizeof(*longstr));
 	if (longstr == NULL)
 		return (NULL);
