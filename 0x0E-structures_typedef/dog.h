@@ -3,8 +3,8 @@
 
 /**
  * struct dog - dog structure
- * @age: age of the dog
  * @name: name of dog
+ * @age: age of dog
  * @owner: owner of dog
  */
 
@@ -14,4 +14,3 @@ typedef struct dog
 	float age;
 	char *owner;
 } dog_t;
-#endif /* endif DOG_H */
