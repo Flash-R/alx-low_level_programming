@@ -1,5 +1,5 @@
-#ifndef Dog_H
-#define Dog_H
+#ifndef DOG_H
+#define DOG_H
 
 /**
  * struct dog - dog structure
@@ -8,7 +8,7 @@
  * @owner: owner of dog
  */
 
-typedef struct Dog
+typedef struct dog
 {
 	char *name;
 	int age;
