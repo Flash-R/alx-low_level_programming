@@ -3,15 +3,15 @@
 
 /**
  * struct dog - dog structure
- * @age: age of the dog
  * @name: name of dog
+ * @age: age of dog
  * @owner: owner of dog
  */
 
 typedef struct dog
 {
 	char *name;
-	int age;
+	float age;
 	char *owner;
-} dog_1;
-#endif
+} dog_t;
+#endif /* endif DOG_H */
